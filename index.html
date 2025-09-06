@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Trị Viên</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <div class="logo">
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C13.1 2 14 2.9 14 4V8H18C19.1 8 20 8.9 20 10V20C20 21.1 19.1 22 18 22H6C4.9 22 4 21.1 4 20V10C4 8.9 4.9 8 6 8H10V4C10 2.9 10.9 2 12 2ZM12 4V8H12V4ZM6 10V20H18V10H6ZM11 12H13V15H16V17H13V20H11V17H8V15H11V12Z" fill="white"/>
+                </svg>
+            </div>
+            
+            <h1 class="title">Quản Trị Viên</h1>
+            <p class="subtitle">Vui lòng đăng nhập vào tài khoản của bạn</p>
+            
+            <form id="loginForm" class="form">
+                <div class="input-group">
+                    <label for="keyCode" class="label">Mã KEY</label>
+                    <div class="input-wrapper">
+                        <input 
+                            type="password" 
+                            id="keyCode" 
+                            name="keyCode"
+                            placeholder="Nhập mã KEY" 
+                            required
+                            class="input-field"
+                        >
+                        <button type="button" class="toggle-password" id="togglePassword">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 4.5C7 4.5 2.73 7.61 1 12C2.73 16.39 7 19.5 12 19.5S21.27 16.39 23 12C21.27 7.61 17 4.5 12 4.5ZM12 17C9.24 17 7 14.76 7 12S9.24 7 12 7S17 9.24 17 12S14.76 17 12 17ZM12 9C10.34 9 9 10.34 9 12S10.34 15 12 15S15 13.66 15 12S13.66 9 12 9Z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <button type="submit" class="login-button">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
